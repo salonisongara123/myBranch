@@ -101,6 +101,9 @@ function SignUp() {
 
         alert("Successfully Submitted")
         reset();
+        setSubjects([]);
+        setSelectedState("");
+        setSelectedCity("");
     };
 
     return (
