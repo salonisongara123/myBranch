@@ -14,6 +14,7 @@ const Home = () => {
 
     const [checked, setChecked] = useState([]);
 
+    // delete single user
     const handleDelete = (index) => {
         // console.log(index);
         // dispatch(deleteUser(index));
@@ -54,6 +55,7 @@ const Home = () => {
         }
     }
 
+    // check uncheck multiple users
     const handleCheck = (event) => {
         var updatedList = [...checked];
         if (event.target.checked) {
@@ -66,6 +68,7 @@ const Home = () => {
         // console.log(updatedList);
     };
 
+    // delete selected users
     const deleteSelecteUsers = () => {
         // dispatch(deleteUsers(checked));
 
