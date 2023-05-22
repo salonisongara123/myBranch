@@ -22,9 +22,9 @@ function SignUp() {
     const [selectedCity, setSelectedCity] = useState('');
     const [selectedState, setSelectedState] = useState('');
 
-    useEffect(() => {
-        // console.log("*************subjects", subjects);
-    }, [subjects])
+    // useEffect(() => {
+    // console.log("*************subjects", subjects);
+    // }, [subjects])
 
 
     const handleName = (e) => {
